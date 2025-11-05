@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Kādas ir kakao pupiņu pamatā?",
+    "options": [
+      "Tauki, ogļhidrāti, olbaltumvielas, smaržvielas un organiskās skābes",
+      "Tauki, ogļhidrāti, olbaltumvielas, smaržvielas un organiskās skābes, kā arī alkaloīdi un kofeīna",
+      "Tauki, ogļhidrāti, olbaltumvielas, smaržvielas un organiskās skābes, kā arī alkaloīdi un kofeīna, un dažādi minerāli",
+      "Tauki, ogļhidrāti, olbaltumvielas, smaržvielas un organiskās skābes, kā arī alkaloīdi un kofeīna, un dažādi minerāli, un dažādi alkaloīdi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "Kādas ir kakao pupiņu procesa pirmais posms?",
+    "options": [
+      "Grauzdēšana, sijāšana, debakterizēšana",
+      "Sijāšana, debakterizēšana, grauzdēšana",
+      "Grauzdēšana, sijāšana, debakterizēšana",
+      "Sijāšana, debakterizēšana, grauzdēšana"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "Kādas ir kakao pupiņu procesa pēdējais posms?",
+    "options": [
+      "Grauzdēšana, sijāšana, debakterizēšana",
+      "Sijāšana, debakterizēšana, grauzdēšana",
+      "Grauzdēšana, sijāšana, debakterizēšana",
+      "Sijāšana, debakterizēšana, grauzdēšana"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "Kādas ir kakao pupiņu procesa otrais posms?",
+    "options": [
+      "Grauzdēšana, sijāšana, debakterizēšana",
+      "Sijāšana, debakterizēšana, grauzdēšana",
+      "Grauzdēšana, sijāšana, debakterizēšana",
+      "Sijāšana, debakterizēšana, grauzdēšana"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "Kādas ir kakao pupiņu procesa trešais posms?",
+    "options": [
+      "Grauzdēšana, sijāšana, debakterizēšana",
+      "Sijāšana, debakterizēšana, grauzdēšana",
+      "Grauzdēšana, sijāšana, debakterizēšana",
+      "Sijāšana, debakterizēšana, grauzdēšana"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "Kādas ir kakao pupiņu procesa ceturtais posms?",
+    "options": [
+      "Grauzdēšana, sijāšana, debakterizēšana",
+      "Sijāšana, debakterizēšana, grauzdēšana",
+      "Grauzdēšana, sijāšana, debakterizēšana",
+      "Sijāšana, debakterizēšana, grauzdēšana"
+    ],
+    "answer_index": 0
+  }
+]
