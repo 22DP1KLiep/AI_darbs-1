@@ -79,17 +79,20 @@ def summarize(text: str) -> str:
 
 def ask_int(prompt: str, lo: int, hi: int) -> int:
     """
-    Prasa lietotājam veselu skaitli [lo..hi]. Ja ievade neder — izmet RuntimeError
-    (ārpus funkcijas šo kļūdu noķeram un beidzam programmu ar skaidru ziņu).
+    Prasa lietotājam veselu skaitli [lo..hi].
+    Ja ievade neder — atkārto jautājumu, līdz ievade ir derīga.
     """
-    raw = input(prompt).strip()
-    try:
-        n = int(raw)
-        if not (lo <= n <= hi):
-            raise ValueError
-        return n
-    except Exception:
-        raise RuntimeError(f"Ievadi veselu skaitli intervālā {lo}..{hi}!")
+    while True:
+        raw = input(prompt).strip()
+        try:
+            n = int(raw)
+            if lo <= n <= hi:
+                return n
+            else:
+                print(f"❌ Lūdzu ievadi skaitli no {lo} līdz {hi}!")
+        except ValueError:
+            print("❌ Tas nav derīgs skaitlis! Mēģini vēlreiz.")
+
 
 def gen_keywords(text: str, n: int) -> str:
     """
