@@ -1,7 +1,7 @@
 # AI_darbs-1
 # Teksta apstrādes programma (Hugging Face)
 
-Šī Python programma lasa tekstu no faila `summary.txt`, apstrādā to ar Hugging Face modeļiem un terminālī attēlo:
+Šī Python programma lasa tekstu no faila `input.txt`, apstrādā to ar Hugging Face modeļiem un terminālī attēlo:
 
 * kopsavilkumu,
 * atslēgvārdus,
@@ -15,7 +15,7 @@ Programma izstrādāta mācību nolūkā, lai demonstrētu teksta apstrādi ar m
 
 Programma veic sekojošus soļus:
 
-1. Nolasa tekstu no `summary.txt`
+1. Nolasa tekstu no `input.txt`
 2. Ģenerē īsu kopsavilkumu
 3. Pieprasa ievadīt atslēgvārdu skaitu (1–10)
 4. Ģenerē atslēgvārdus
@@ -67,7 +67,7 @@ Tokenu var iegūt: [https://huggingface.co/settings/tokens](https://huggingface.
 
 ## Lietošana
 
-Ievietot tekstu failā `summary.txt`
+Ievietot tekstu failā `input.txt`
 
 Palaist programmu:
 
@@ -106,7 +106,7 @@ Rezultāti tiks parādīti terminālī.
 
 | Funkcija          | Apraksts                              |
 | ----------------- | ------------------------------------- |
-| Teksta nolasīšana | Automātiski no `summary.txt`          |
+| Teksta nolasīšana | Automātiski no `input.txt`          |
 | Kopsavilkums      | Īss teksta pārstāsts                  |
 | Atslēgvārdi       | Lietotājs izvēlas skaitu              |
 | Viktorīna         | 4 atbilžu varianti un pareizā atbilde |
